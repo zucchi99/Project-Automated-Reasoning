@@ -5,23 +5,23 @@ It is required to implement the solution using both MiniZinc (known SAT-solver) 
 
 ## Problem constraints
 
-The problem requires to divide <code>total_money=1mln</code> between various italian universities (U1, U2, ... , Un) and four different topics (T1, T2, T3, T4).
+The problem requires to divide <code>total_money = 1mln</code> between various italian universities (U1, U2, ... , Un) and four different topics (T1, T2, T3, T4).
 
-Each topic has a reserved share of <code>total_money</code>, for example <code>topics_perc=[40%, 30%, 10%, 20%]</code>.
+Each topic has a reserved share of <code>total_money</code>, for example <code>topics_perc = [40%, 30%, 10%, 20%]</code>.
 
-Each topic is represented by <code>num_hubs=1</code> hub and by <code>0 <= num_spokes <= 5</code> spokes.
+Each topic is represented by <code>num_hubs = 1</code> hub and by <code>0 <= num_spokes <= 5</code> spokes.
 
 Each university has a list of topics on which is interested (from 1 to 3).
 
 Each university, for each topic, can be:
- * <code>hub</code>: receives <code>hubs_perc=70%</code> of the topic share
- * <code>spoke</code>: receives an equal part <code>spoke_perc=30%</code> of the topic share, to be divided with the other spokes
+ * <code>hub</code>: receives <code>hubs_perc = 70%</code> of the topic share
+ * <code>spoke</code>: receives an equal part <code>spoke_perc = 30%</code> of the topic share, to be divided with the other spokes
  * <code>non-participating</code>: do not receive anything
  
 Clearly, non-interested universities will be non-participating, but the reverse is not true.
 
 We define <code>d(x,y)</code> the distance in km between universities x and y.
-Each university must gain a share quota between <code>min_money=50k<code> <code>max_money=150k</code>
+Each university must gain a share quota between <code>min_money = 50k<code> <code>max_money = 150k</code>
 
 The constraints are the following:
  * foreach U: U is hub for Ti ==> U is non-participating for all Tj, with j != i 
