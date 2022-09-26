@@ -51,7 +51,7 @@ distances_pd = pd.DataFrame(distances, columns = cities['city'].to_list())
 #print(distances_pd)
 
 lp_file  = 'distances.lp'
-csv_file = 'distances.lp'
+csv_file = 'distances.csv'
 
 print(f'output files:{csv_file}, {lp_file}')
 
