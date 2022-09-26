@@ -35,7 +35,8 @@ The constraints are the following:
 
 The coordinates of italian cities can be downloaded here:
 https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel
-It is the file <code>distances/italy_geo.xlsx</code>.
+
+The file is available also in the repo: <code>distances/italy_geo.xlsx</code>.
 
 In the python <code>distances/distances.py</code> I read the excel file and generate the matrixes accordingly to lp and mzn syntax.
 
