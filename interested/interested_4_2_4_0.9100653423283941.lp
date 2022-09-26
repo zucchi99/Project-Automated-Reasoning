@@ -1,0 +1,60 @@
+%python3 interested.py 4 2 4 0.9100653423283941
+%Seed: 0.9100653423283941
+%Sections: 4
+%Min Interests: 2
+%Max Interests: 4
+interested(2,1).
+interested(3,1).
+interested(4,1).
+interested(1,2).
+interested(3,2).
+interested(4,2).
+interested(2,3).
+interested(3,3).
+interested(4,3).
+interested(3,4).
+interested(4,4).
+interested(1,5).
+interested(2,5).
+interested(4,5).
+interested(1,6).
+interested(2,6).
+interested(2,7).
+interested(4,7).
+interested(3,8).
+interested(4,8).
+interested(1,9).
+interested(3,9).
+interested(4,9).
+interested(1,10).
+interested(2,10).
+interested(4,10).
+interested(1,11).
+interested(2,11).
+interested(3,11).
+interested(1,12).
+interested(2,12).
+interested(3,12).
+interested(4,12).
+interested(1,13).
+interested(3,13).
+interested(1,14).
+interested(3,14).
+interested(4,14).
+interested(1,15).
+interested(3,15).
+interested(4,15).
+interested(2,16).
+interested(4,16).
+interested(1,17).
+interested(2,17).
+interested(4,17).
+interested(1,18).
+interested(4,18).
+interested(1,19).
+interested(2,19).
+interested(3,19).
+interested(4,19).
+interested(2,20).
+interested(3,20).
+interested(4,20).

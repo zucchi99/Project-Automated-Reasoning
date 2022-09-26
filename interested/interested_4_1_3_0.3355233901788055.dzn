@@ -1,0 +1,27 @@
+%python3 interested.py 4 1 3 0.3355233901788055
+%Seed: 0.3355233901788055
+%Sections: 4
+%Min Interests: 1
+%Max Interests: 3
+interested =
+[| true ,	true ,	true ,	false ,	
+ | true ,	true ,	false ,	false ,	
+ | false ,	false ,	false ,	true ,	
+ | false ,	true ,	true ,	false ,	
+ | true ,	true ,	true ,	false ,	
+ | false ,	true ,	false ,	true ,	
+ | false ,	true ,	true ,	true ,	
+ | true ,	false ,	true ,	true ,	
+ | false ,	true ,	false ,	false ,	
+ | false ,	true ,	true ,	true ,	
+ | false ,	true ,	false ,	true ,	
+ | true ,	true ,	false ,	false ,	
+ | true ,	true ,	true ,	false ,	
+ | false ,	true ,	false ,	false ,	
+ | false ,	true ,	true ,	false ,	
+ | false ,	true ,	false ,	true ,	
+ | false ,	false ,	false ,	true ,	
+ | false ,	true ,	false ,	true ,	
+ | true ,	false ,	true ,	true ,	
+ | false ,	false ,	true ,	false ,	
+|];
