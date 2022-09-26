@@ -21,7 +21,7 @@ Each university, for each topic, can be:
 Clearly, non-interested universities will be non-participating, but the reverse is not true.
 
 We define <code>d(x,y)</code> the distance in km between universities x and y.
-Each university must gain a share quota between <code>min_money = 50k<code> <code>max_money = 150k</code>
+Each university must gain a share quota between <code>min_money = 50k</code> and <code>max_money = 150k</code>
 
 The constraints are the following:
  * foreach U: U is hub for Ti ==> U is non-participating for all Tj, with j != i 
