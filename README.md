@@ -1,7 +1,7 @@
 # Project for Automated Reasoning Exam
 
 In the repository I propose to solve the instance problem given in the <code>consegna.png</code> file.
-It is required to implemented using both MiniZinc (known SAT-solver) and Answer Set Programming.
+It is required to implement the solution using both MiniZinc (known SAT-solver) and Answer Set Programming.
 
 ## Problem constraints
 
