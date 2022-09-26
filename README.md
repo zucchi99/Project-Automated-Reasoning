@@ -5,9 +5,9 @@ It is required to implement the solution using both MiniZinc (known SAT-solver) 
 
 ## Problem constraints
 
-The problem requires to divide <code>total_money</code> between various italian universities (U1, U2, ... , Un) and four different topics (T1, T2, T3, T4).
+The problem requires to divide <code>total_money=1mln</code> between various italian universities (U1, U2, ... , Un) and four different topics (T1, T2, T3, T4).
 
-Each topic has a reserved share of <code>total_money=1mln</code>, for example <code>topics_perc=[40%, 30%, 10%, 20%]</code>.
+Each topic has a reserved share of <code>total_money</code>, for example <code>topics_perc=[40%, 30%, 10%, 20%]</code>.
 
 Each topic is represented by <code>num_hubs=1</code> hub and by <code>0 <= num_spokes <= 5</code> spokes.
 
